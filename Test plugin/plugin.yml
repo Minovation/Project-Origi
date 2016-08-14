@@ -1,0 +1,7 @@
+name: testPlugin
+main: com.Minovation.testPlugin.Main
+version: 1.0
+
+commands:
+  hello:
+    description: prints a test string.
