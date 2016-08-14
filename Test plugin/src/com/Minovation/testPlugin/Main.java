@@ -11,6 +11,8 @@ public class Main extends JavaPlugin {
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args){
 		if(cmd.getName().equalsIgnoreCase("hello")){
 			sender.sendMessage("world word");
+		} else if(cmd.getName().equalsIgnoreCase("greetings")){
+			sender.sendMessage("yo");
 		}
 		return false;
 	}

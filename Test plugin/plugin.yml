@@ -5,3 +5,5 @@ version: 1.0
 commands:
   hello:
     description: prints a test string.
+  greetings:
+    description: prints another test string.
